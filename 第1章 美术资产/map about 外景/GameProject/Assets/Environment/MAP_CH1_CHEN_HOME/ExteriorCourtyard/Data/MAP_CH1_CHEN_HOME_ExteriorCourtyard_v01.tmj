@@ -1,0 +1,398 @@
+{
+  "type": "map",
+  "tiledversion": "1.11.2",
+  "version": "1.10",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "infinite": true,
+  "tilewidth": 48,
+  "tileheight": 48,
+  "width": 0,
+  "height": 0,
+  "nextlayerid": 8,
+  "nextobjectid": 16,
+  "layers": [
+    {
+      "id": 1,
+      "name": "L01_GROUND",
+      "type": "imagelayer",
+      "image": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L01_GROUND_v01_1664x936.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 2,
+      "name": "L02_GROUND_DETAIL",
+      "type": "imagelayer",
+      "image": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L02_GROUND_DETAIL_v01_1664x936.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "L03_STRUCTURE_LOW",
+      "type": "imagelayer",
+      "image": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L03_STRUCTURE_LOW_v01_1664x936.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 4,
+      "name": "L04_PROP_INTERACT",
+      "type": "imagelayer",
+      "image": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L04_PROP_INTERACT_v01_1664x936.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 5,
+      "name": "L05_COLLISION_TRIGGER",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "opacity": 1,
+      "visible": false,
+      "objects": [
+        {
+          "id": 1,
+          "name": "COL_WALL_NORTH_LEFT",
+          "type": "collision",
+          "x": 16,
+          "y": 156,
+          "width": 720,
+          "height": 240,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 2,
+          "name": "COL_WALL_NORTH_RIGHT",
+          "type": "collision",
+          "x": 1024,
+          "y": 156,
+          "width": 528,
+          "height": 240,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 3,
+          "name": "COL_WALL_WEST",
+          "type": "collision",
+          "x": 16,
+          "y": 204,
+          "width": 144,
+          "height": 576,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 4,
+          "name": "COL_WALL_EAST",
+          "type": "collision",
+          "x": 1504,
+          "y": 204,
+          "width": 144,
+          "height": 576,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 5,
+          "name": "COL_HOUSE_SOUTH_LEFT",
+          "type": "collision",
+          "x": 16,
+          "y": 732,
+          "width": 720,
+          "height": 192,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 6,
+          "name": "COL_HOUSE_SOUTH_RIGHT",
+          "type": "collision",
+          "x": 976,
+          "y": 732,
+          "width": 672,
+          "height": 192,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 7,
+          "name": "COL_PROP_LEFT",
+          "type": "collision",
+          "x": 208,
+          "y": 444,
+          "width": 144,
+          "height": 144,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 8,
+          "name": "COL_PROP_RIGHT",
+          "type": "collision",
+          "x": 1360,
+          "y": 396,
+          "width": 144,
+          "height": 144,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 9,
+          "name": "TRG_GATE_CODE_KNOCK",
+          "type": "interaction",
+          "x": 784,
+          "y": 156,
+          "width": 192,
+          "height": 240,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "interaction_id",
+              "type": "string",
+              "value": "CH1_FIXED_05_WOOD_GATE_CODE"
+            },
+            {
+              "name": "prompt",
+              "type": "string",
+              "value": "敲门暗号"
+            },
+            {
+              "name": "states",
+              "type": "string",
+              "value": "closed|ajar|narrow_gap"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SPAWN_ZHOU_YANSHAN_OUTSIDE_GATE",
+          "type": "spawn",
+          "x": 784,
+          "y": 60,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "character",
+              "type": "string",
+              "value": "Zhou_Yanshan"
+            },
+            {
+              "name": "baked_into_map",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TRG_WALL_SHADOW_CONVERSATION",
+          "type": "interaction",
+          "x": 1168,
+          "y": 396,
+          "width": 144,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "interaction_id",
+              "type": "string",
+              "value": "CH1_FIXED_06_WALL_SHADOW"
+            },
+            {
+              "name": "prompt",
+              "type": "string",
+              "value": "低声交谈"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "SPAWN_PLAYER_HOUSE_THRESHOLD",
+          "type": "spawn",
+          "x": 784,
+          "y": 780,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "character",
+              "type": "string",
+              "value": "Chen_Jinan_Player"
+            },
+            {
+              "name": "baked_into_map",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "TRG_EXIT_SHORT_VILLAGE_PATH",
+          "type": "trigger",
+          "x": 784,
+          "y": 12,
+          "width": 96,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "target",
+              "type": "string",
+              "value": "MAP_CH1_NEARBY_VILLAGE_PATH"
+            },
+            {
+              "name": "transition",
+              "type": "string",
+              "value": "fade_short"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "CAMERA_EXTERIOR_SHORT_RANGE",
+          "type": "camera",
+          "x": 16,
+          "y": 12,
+          "width": 1632,
+          "height": 912,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "lock",
+              "type": "string",
+              "value": "exterior_courtyard"
+            },
+            {
+              "name": "extend_to_full_village",
+              "type": "bool",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "TRG_PLAYABLE_COURTYARD_RANGE",
+          "type": "trigger",
+          "x": 160,
+          "y": 348,
+          "width": 1344,
+          "height": 384,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "movement",
+              "type": "string",
+              "value": "short_range_only"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "L06_OCCLUSION_HIGH",
+      "type": "imagelayer",
+      "image": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L06_OCCLUSION_HIGH_v01_1664x936.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 7,
+      "name": "L07_LIGHT_FX",
+      "type": "imagelayer",
+      "image": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L07_LIGHT_FX_v01_1664x936.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "properties": [
+    {
+      "name": "map_id",
+      "type": "string",
+      "value": "MAP_CH1_CHEN_HOME"
+    },
+    {
+      "name": "area_id",
+      "type": "string",
+      "value": "EXTERIOR_COURTYARD"
+    },
+    {
+      "name": "canvas_width",
+      "type": "int",
+      "value": 1664
+    },
+    {
+      "name": "canvas_height",
+      "type": "int",
+      "value": 936
+    },
+    {
+      "name": "grid_origin_x",
+      "type": "int",
+      "value": 16
+    },
+    {
+      "name": "grid_origin_y",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "name": "time",
+      "type": "string",
+      "value": "1927-09-03 morning"
+    },
+    {
+      "name": "runtime_characters",
+      "type": "bool",
+      "value": true
+    }
+  ],
+  "tilesets": []
+}

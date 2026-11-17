@@ -1,0 +1,28 @@
+{
+  "map_id": "MAP_CH3_TU_COMPOUND",
+  "source_archive": "Chapter3-Props.zip",
+  "used_as_scene_references": [
+    {"asset": "PROP002_RemainingFood_Icon_v1.png", "use": "左下墙外残食与骨头区", "states": ["ALL"]},
+    {"asset": "PROP003_RamPole_Icon_v1.png", "use": "门外无绳整木撞门", "states": ["STATE_GATE_ATTACK", "STATE_GATE_BROKEN", "STATE_AFTER_BATTLE"]},
+    {"asset": "PROP004_StickClub_Icon_v1.png", "use": "战后武器集中/离场捆扎", "states": ["STATE_AFTER_BATTLE", "STATE_DEPARTURE"]},
+    {"asset": "PROP005_SpearStack_Icon_v1.png", "use": "院内武器区与战后集中", "states": ["ALL"]},
+    {"asset": "PROP008_MoonCakeBroken_Icon_v01.png", "use": "墙外残食与月饼碎屑", "states": ["ALL"]},
+    {"asset": "PROP012_WineBottle_Icon_v1.png", "use": "左上宴饮区", "states": ["ALL"]},
+    {"asset": "PROP015_PlateWithFood_Icon_v1.png", "use": "左上宴饮残留", "states": ["ALL"]},
+    {"asset": "PROP016_LeftoverFoodInBucket_Icon_v1.png", "use": "生活区/墙外残食语义", "states": ["ALL"]},
+    {"asset": "PROP017_GrainPile_Icon_v1.png", "use": "榨房油料与战后粮食物资", "states": ["ALL"]},
+    {"asset": "PROP018_SingleGrainBag_Icon_v1.png", "use": "榨房与财物集中区", "states": ["ALL"]},
+    {"asset": "PROP019_MultipleGoblets_Icon_v1.png", "use": "宴饮与战后武器类别参照", "states": ["ALL"]},
+    {"asset": "PROP021_MetalBucket_Icon_v1.png", "use": "行动物资与院内杂物", "states": ["ALL"]},
+    {"asset": "PROP023_FireSeedContainer_Icon_v01.png", "use": "火攻行动资产；不与基础底图绑定", "states": ["STATE_FIRE_STARTED", "STATE_GATE_ATTACK", "STATE_GATE_BROKEN"]},
+    {"asset": "PROP024_MultiplePorcelainBowls_Icon_v01.png", "use": "宴饮粗瓷碗与战后散落物", "states": ["ALL"]},
+    {"asset": "PROP026_Package_Icon_v01.png", "use": "财物集中与离场包裹", "states": ["STATE_AFTER_BATTLE", "STATE_DEPARTURE"]}
+  ],
+  "not_baked_as_modern_or_incompatible": [
+    "PROP009_DanceHallChandelier_Icon_v1.png",
+    "PROP0010_DanceHallWallLamp_Icon_v1.png",
+    "PROP011_Book_Icon_v1.png",
+    "PROP013_SingleGoblet_Icon_v1.png",
+    "PROP014_MultipleGoblets_Icon_v1.png"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "asset_id": "ENV_CH1_CHEN_HOME_EXTERIOR_COURTYARD",
+  "checked_date": "20260811",
+  "canvas_pass": true,
+  "required_tiled_layers_pass": true,
+  "objects_48px_pass": true,
+  "png_checks": [
+    {
+      "file": "Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L01_GROUND_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L02_GROUND_DETAIL_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L03_STRUCTURE_LOW_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L04_PROP_INTERACT_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L05_COLLISION_TRIGGER_DEBUG_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L06_OCCLUSION_HIGH_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L07_LIGHT_FX_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 30,
+      "dimension_pass": true
+    },
+    {
+      "file": "Preview/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_GridAndTriggerPreview_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Preview/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_Master_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "dimension_pass": true
+    },
+    {
+      "file": "Preview/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_SevenLayerComposite_v01_1664x936.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "dimension_pass": true
+    }
+  ],
+  "object_checks": [
+    {
+      "name": "COL_WALL_NORTH_LEFT",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "COL_WALL_NORTH_RIGHT",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "COL_WALL_WEST",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "COL_WALL_EAST",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "COL_HOUSE_SOUTH_LEFT",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "COL_HOUSE_SOUTH_RIGHT",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "COL_PROP_LEFT",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "COL_PROP_RIGHT",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "TRG_GATE_CODE_KNOCK",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "SPAWN_ZHOU_YANSHAN_OUTSIDE_GATE",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "TRG_WALL_SHADOW_CONVERSATION",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "SPAWN_PLAYER_HOUSE_THRESHOLD",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "TRG_EXIT_SHORT_VILLAGE_PATH",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "CAMERA_EXTERIOR_SHORT_RANGE",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    },
+    {
+      "name": "TRG_PLAYABLE_COURTYARD_RANGE",
+      "size_multiple_of_48": true,
+      "position_aligned_to_grid_origin": true
+    }
+  ]
+}

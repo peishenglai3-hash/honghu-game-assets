@@ -1,0 +1,68 @@
+{
+  "asset_id": "ENV_CH1_CHEN_HOME_EXTERIOR_COURTYARD",
+  "map_id": "MAP_CH1_CHEN_HOME",
+  "area_id": "EXTERIOR_COURTYARD",
+  "name_zh": "陈继南家院墙—门外区域",
+  "category": "Environment",
+  "priority": "P0",
+  "style": "Historical Honghu HD-2D Pixel Narrative RPG",
+  "palette": "Historical_Honghu_Earth_CoolMorning",
+  "camera": "three-quarter top-down",
+  "time": "1927-09-03 morning",
+  "canvas": {
+    "width": 1664,
+    "height": 936
+  },
+  "tile_size": {
+    "width": 48,
+    "height": 48
+  },
+  "grid": {
+    "origin": {
+      "x": 16,
+      "y": 12
+    },
+    "usable_columns": 34,
+    "usable_rows": 19,
+    "usable_size": {
+      "width": 1632,
+      "height": 912
+    },
+    "note": "1664x936 requested canvas with a centered 48px modular grid and non-playable safety margins."
+  },
+  "files": {
+    "master": "../Preview/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_Master_v01_1664x936.png",
+    "composite_preview": "../Preview/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_SevenLayerComposite_v01_1664x936.png",
+    "layers": {
+      "L01_GROUND": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L01_GROUND_v01_1664x936.png",
+      "L02_GROUND_DETAIL": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L02_GROUND_DETAIL_v01_1664x936.png",
+      "L03_STRUCTURE_LOW": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L03_STRUCTURE_LOW_v01_1664x936.png",
+      "L04_PROP_INTERACT": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L04_PROP_INTERACT_v01_1664x936.png",
+      "L06_OCCLUSION_HIGH": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L06_OCCLUSION_HIGH_v01_1664x936.png",
+      "L07_LIGHT_FX": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L07_LIGHT_FX_v01_1664x936.png",
+      "L05_COLLISION_TRIGGER_DEBUG": "../Layers/ENV_CH1_ChenHome_ExteriorCourtyard_Morning_L05_COLLISION_TRIGGER_DEBUG_v01_1664x936.png"
+    },
+    "tiled_map": "MAP_CH1_CHEN_HOME_ExteriorCourtyard_v01.tmj",
+    "collision_trigger": "MAP_CH1_CHEN_HOME_ExteriorCourtyard_L05_COLLISION_TRIGGER_v01.json"
+  },
+  "fixed_interactions": {
+    "exterior_in_scope": [
+      "CH1_FIXED_05_WOOD_GATE_CODE",
+      "CH1_FIXED_06_WALL_SHADOW"
+    ],
+    "interior_reserved_elsewhere": [
+      "CH1_FIXED_01_COPPER_BASIN",
+      "CH1_FIXED_02_DESK_AND_NAME",
+      "CH1_FIXED_03_DOOR_CLOTHING",
+      "CH1_FIXED_04_FAMILY"
+    ]
+  },
+  "runtime": {
+    "characters_baked": false,
+    "recommended_engine": "Phaser/Tiled"
+  },
+  "prompt_version": "PV1.0",
+  "version": "v01",
+  "generated_date": "20260811",
+  "status": "production_candidate_needs_human_art_review"
+}

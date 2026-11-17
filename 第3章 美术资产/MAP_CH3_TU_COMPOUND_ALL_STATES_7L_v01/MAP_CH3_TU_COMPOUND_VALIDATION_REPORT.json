@@ -1,0 +1,397 @@
+{
+  "valid": true,
+  "packages": [
+    {
+      "asset_id": "MAP_CH3_TU_COMPOUND_STATE_AFTER_BATTLE",
+      "layers": {
+        "L01_GROUND": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 202105
+        },
+        "L02_GROUND_DETAIL": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 48508
+        },
+        "L03_STRUCTURE_LOW": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 312030
+        },
+        "L04_PROP_INTERACT": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 336027
+        },
+        "L05_COLLISION_TRIGGER": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1437954
+        },
+        "L06_OCCLUSION_HIGH": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 707342
+        },
+        "L07_LIGHT_FX": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 999651
+        }
+      },
+      "errors": [],
+      "recomposition_pixel_exact": true
+    },
+    {
+      "asset_id": "MAP_CH3_TU_COMPOUND_STATE_DEPARTURE",
+      "layers": {
+        "L01_GROUND": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 205742
+        },
+        "L02_GROUND_DETAIL": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 49467
+        },
+        "L03_STRUCTURE_LOW": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 314903
+        },
+        "L04_PROP_INTERACT": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 329517
+        },
+        "L05_COLLISION_TRIGGER": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1437954
+        },
+        "L06_OCCLUSION_HIGH": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 707342
+        },
+        "L07_LIGHT_FX": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 933614
+        }
+      },
+      "errors": [],
+      "recomposition_pixel_exact": true
+    },
+    {
+      "asset_id": "MAP_CH3_TU_COMPOUND_STATE_FIRE_STARTED",
+      "layers": {
+        "L01_GROUND": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 229633
+        },
+        "L02_GROUND_DETAIL": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 69841
+        },
+        "L03_STRUCTURE_LOW": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 329446
+        },
+        "L04_PROP_INTERACT": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 291083
+        },
+        "L05_COLLISION_TRIGGER": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1437954
+        },
+        "L06_OCCLUSION_HIGH": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 707342
+        },
+        "L07_LIGHT_FX": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1096726
+        }
+      },
+      "errors": [],
+      "recomposition_pixel_exact": true
+    },
+    {
+      "asset_id": "MAP_CH3_TU_COMPOUND_STATE_GATE_ATTACK",
+      "layers": {
+        "L01_GROUND": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 224962
+        },
+        "L02_GROUND_DETAIL": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 67584
+        },
+        "L03_STRUCTURE_LOW": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 302306
+        },
+        "L04_PROP_INTERACT": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 322894
+        },
+        "L05_COLLISION_TRIGGER": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1437954
+        },
+        "L06_OCCLUSION_HIGH": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 707342
+        },
+        "L07_LIGHT_FX": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1096726
+        }
+      },
+      "errors": [],
+      "recomposition_pixel_exact": true
+    },
+    {
+      "asset_id": "MAP_CH3_TU_COMPOUND_STATE_GATE_BROKEN",
+      "layers": {
+        "L01_GROUND": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 227032
+        },
+        "L02_GROUND_DETAIL": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 68617
+        },
+        "L03_STRUCTURE_LOW": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 311066
+        },
+        "L04_PROP_INTERACT": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 312064
+        },
+        "L05_COLLISION_TRIGGER": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1437954
+        },
+        "L06_OCCLUSION_HIGH": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 707342
+        },
+        "L07_LIGHT_FX": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1096726
+        }
+      },
+      "errors": [],
+      "recomposition_pixel_exact": true
+    },
+    {
+      "asset_id": "MAP_CH3_TU_COMPOUND_STATE_GATE_CLOSED",
+      "layers": {
+        "L01_GROUND": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 229633
+        },
+        "L02_GROUND_DETAIL": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 51812
+        },
+        "L03_STRUCTURE_LOW": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 329446
+        },
+        "L04_PROP_INTERACT": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 291083
+        },
+        "L05_COLLISION_TRIGGER": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1437954
+        },
+        "L06_OCCLUSION_HIGH": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 707342
+        },
+        "L07_LIGHT_FX": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 638314
+        }
+      },
+      "errors": [],
+      "recomposition_pixel_exact": true
+    },
+    {
+      "asset_id": "MAP_CH3_TU_COMPOUND_STATE_WAITING",
+      "layers": {
+        "L01_GROUND": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 229633
+        },
+        "L02_GROUND_DETAIL": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 55365
+        },
+        "L03_STRUCTURE_LOW": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 329446
+        },
+        "L04_PROP_INTERACT": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 291083
+        },
+        "L05_COLLISION_TRIGGER": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 1437954
+        },
+        "L06_OCCLUSION_HIGH": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 707342
+        },
+        "L07_LIGHT_FX": {
+          "size": [
+            1664,
+            936
+          ],
+          "nontransparent_pixels": 638314
+        }
+      },
+      "errors": [],
+      "recomposition_pixel_exact": true
+    }
+  ]
+}

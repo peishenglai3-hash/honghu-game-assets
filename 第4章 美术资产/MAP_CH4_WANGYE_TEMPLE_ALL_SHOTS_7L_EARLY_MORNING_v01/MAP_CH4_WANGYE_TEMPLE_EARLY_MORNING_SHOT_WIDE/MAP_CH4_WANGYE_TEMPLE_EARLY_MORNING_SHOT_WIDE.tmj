@@ -1,0 +1,497 @@
+{
+  "type": "map",
+  "tiledversion": "1.11.2",
+  "version": "1.10",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "infinite": false,
+  "tilewidth": 48,
+  "tileheight": 48,
+  "width": 34,
+  "height": 19,
+  "nextlayerid": 8,
+  "nextobjectid": 101,
+  "layers": [
+    {
+      "id": 1,
+      "name": "L01_GROUND",
+      "type": "imagelayer",
+      "image": "MAP_CH4_WANGYE_TEMPLE_EARLY_MORNING_SHOT_WIDE_L01_GROUND.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 2,
+      "name": "L02_GROUND_DETAIL",
+      "type": "imagelayer",
+      "image": "MAP_CH4_WANGYE_TEMPLE_EARLY_MORNING_SHOT_WIDE_L02_GROUND_DETAIL.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "L03_STRUCTURE_LOW",
+      "type": "imagelayer",
+      "image": "MAP_CH4_WANGYE_TEMPLE_EARLY_MORNING_SHOT_WIDE_L03_STRUCTURE_LOW.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 4,
+      "name": "L04_PROP_INTERACT",
+      "type": "imagelayer",
+      "image": "MAP_CH4_WANGYE_TEMPLE_EARLY_MORNING_SHOT_WIDE_L04_PROP_INTERACT.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 5,
+      "name": "L05_COLLISION_TRIGGER",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "visible": false,
+      "objects": [
+        {
+          "id": 1,
+          "name": "COL_STAGE_BUILDING",
+          "type": "collision",
+          "x": 400,
+          "y": 60,
+          "width": 864,
+          "height": 384,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 2,
+          "name": "COL_WEST_BOUNDARY",
+          "type": "collision",
+          "x": 304,
+          "y": 108,
+          "width": 48,
+          "height": 672,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 3,
+          "name": "COL_EAST_BOUNDARY",
+          "type": "collision",
+          "x": 1312,
+          "y": 108,
+          "width": 48,
+          "height": 672,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 4,
+          "name": "COL_SOUTH_WALL_LEFT",
+          "type": "collision",
+          "x": 304,
+          "y": 732,
+          "width": 432,
+          "height": 192,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 5,
+          "name": "COL_SOUTH_WALL_RIGHT",
+          "type": "collision",
+          "x": 928,
+          "y": 732,
+          "width": 432,
+          "height": 192,
+          "rotation": 0,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 6,
+          "name": "ZONE_STAGE_ANNOUNCEMENT",
+          "type": "zone",
+          "x": 544,
+          "y": 204,
+          "width": 576,
+          "height": 192,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "stage"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "ZONE_MID_INSURGENTS_WOUNDED",
+          "type": "zone",
+          "x": 592,
+          "y": 396,
+          "width": 480,
+          "height": 144,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "midground"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "ZONE_FRONT_CROWD",
+          "type": "zone",
+          "x": 496,
+          "y": 492,
+          "width": 672,
+          "height": 240,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "foreground_crowd"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "ZONE_CAPTURED_MATERIALS",
+          "type": "zone",
+          "x": 1120,
+          "y": 396,
+          "width": 192,
+          "height": 192,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "handover"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "ZONE_STREET_GUARD",
+          "type": "zone",
+          "x": 784,
+          "y": 780,
+          "width": 96,
+          "height": 144,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "street_guard"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "TRG_PEASANT_ASSOCIATION_MARK",
+          "type": "interaction",
+          "x": 1168,
+          "y": 300,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "action",
+              "type": "string",
+              "value": "confirm_peasant_association"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "TRG_CAPTURED_WEAPONS",
+          "type": "interaction",
+          "x": 1120,
+          "y": 396,
+          "width": 192,
+          "height": 192,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "action",
+              "type": "string",
+              "value": "handover_or_register_weapons"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SPAWN_STAGE_SPEAKER",
+          "type": "spawn",
+          "x": 784,
+          "y": 300,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "facing",
+              "type": "string",
+              "value": "down"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SPAWN_WOUNDED_A",
+          "type": "spawn",
+          "x": 640,
+          "y": 444,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "wounded"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SPAWN_WOUNDED_HELPER_A",
+          "type": "spawn",
+          "x": 688,
+          "y": 444,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "wounded"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "SPAWN_CROWD_FRONT_A",
+          "type": "spawn",
+          "x": 592,
+          "y": 588,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "foreground_crowd"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "SPAWN_CROWD_FRONT_B",
+          "type": "spawn",
+          "x": 784,
+          "y": 636,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "foreground_crowd"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "SPAWN_CROWD_FRONT_C",
+          "type": "spawn",
+          "x": 976,
+          "y": 588,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "foreground_crowd"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "SPAWN_HANDOVER_MEMBER",
+          "type": "spawn",
+          "x": 1072,
+          "y": 444,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "handover"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "SPAWN_STREET_GUARD",
+          "type": "spawn",
+          "x": 784,
+          "y": 780,
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "runtime_group",
+              "type": "string",
+              "value": "street_guard"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "EXIT_STREET_MOUTH",
+          "type": "exit",
+          "x": 784,
+          "y": 828,
+          "width": 96,
+          "height": 96,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "destination",
+              "type": "string",
+              "value": "daijiachang_street"
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "name": "CAMERA_SHOT_WIDE",
+          "type": "camera",
+          "x": 16,
+          "y": 12,
+          "width": 1632,
+          "height": 912,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "fixed_performance",
+              "type": "string",
+              "value": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "L06_OCCLUSION_HIGH",
+      "type": "imagelayer",
+      "image": "MAP_CH4_WANGYE_TEMPLE_EARLY_MORNING_SHOT_WIDE_L06_OCCLUSION_HIGH.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    },
+    {
+      "id": 7,
+      "name": "L07_LIGHT_FX",
+      "type": "imagelayer",
+      "image": "MAP_CH4_WANGYE_TEMPLE_EARLY_MORNING_SHOT_WIDE_L07_LIGHT_FX.png",
+      "imagewidth": 1664,
+      "imageheight": 936,
+      "offsetx": 0,
+      "offsety": 0,
+      "opacity": 1,
+      "visible": true
+    }
+  ],
+  "tilesets": [],
+  "properties": [
+    {
+      "name": "map_id",
+      "type": "string",
+      "value": "MAP_CH4_WANGYE_TEMPLE"
+    },
+    {
+      "name": "asset_id",
+      "type": "string",
+      "value": "MAP_CH4_WANGYE_TEMPLE_EARLY_MORNING_SHOT_WIDE"
+    },
+    {
+      "name": "time",
+      "type": "string",
+      "value": "1927-09-11 early morning; shortly after sunrise"
+    },
+    {
+      "name": "fixed_performance",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "characters_baked",
+      "type": "bool",
+      "value": false
+    }
+  ],
+  "color_grade": {
+    "id": "EARLY_MORNING_DAYLIGHT_v01",
+    "method": "deterministic RGB luminance curve; alpha and geometry preserved",
+    "reference": "MAP_CH4_WANGYE_TEMPLE_SHOT_WIDE_EARLY_MORNING_COLOR_REFERENCE_v01.png",
+    "regenerated_geometry": false
+  }
+}
